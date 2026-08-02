@@ -6,14 +6,17 @@
 /*   By: anematol <anematol@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/09 21:10:20 by anematol          #+#    #+#             */
-/*   Updated: 2025/12/05 17:02:44 by anematol         ###   ########.fr       */
+/*   Updated: 2026/08/02 14:21:27 by anematol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 # include "./minilibx-linux/mlx.h"
-# include "./minilibx-linux/mlx_int.h"
+# include <X11/X.h>
+# include <X11/keysym.h>
+# include <fcntl.h>
+//# include "./minilibx-linux/mlx_int.h"
 # include "./get_next_line/get_next_line.h"
 # include "./ft_printf/ft_printf.h"
 # include <sys/time.h>
